@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <wchar.h>
-size_t my_wstrlen(const wchar_t *s)
 
 wchar_t *my_wstrchr(wchar_t *ws, wchar_t wc)
 
+size_t my_wc_strlen(const wchar_t *s)
 size_t my_strlen(const char *s)
 {
    const char *p = s;
 
    while (*p)
       ++p;
-
-   return (p - s);
 }
 
 char *my_strcpy(char *t, char *s)
