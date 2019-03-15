@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <wchar.h>
-size_t my_strlen(char *s)
+size_t my_wc_strlen(const wchar_t *s)
 size_t my_strlen(const char *s)
 {
    const char *p = s;
